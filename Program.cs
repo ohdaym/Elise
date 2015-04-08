@@ -378,11 +378,6 @@ namespace SephElise
                     {
                         R.Cast();
                     }
-                    if (!Q.IsReady() && !W.IsReady() && Player.Distance(target) <= 750 &&
-                        Config.Item("UseQHuman").GetValue<bool>())
-                    {
-                        R.Cast();
-                    }
                 }
                 // Spider Rotation
                 if (SpiderForm)
